@@ -26,7 +26,7 @@
           color: $primary;
         }
         &.active {
-          color: $primary !important;
+          color: $dark-text !important;
           background-color: transparent;
           &:hover {
             background-color: transparent;
@@ -59,7 +59,7 @@
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
       .navbar-brand {
-        color: $primary;
+        color: $dark-text;
         &:focus,
         &:hover {
           color: darken($primary, .1);
