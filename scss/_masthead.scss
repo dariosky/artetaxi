@@ -2,8 +2,8 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/background.jpg');
-  background-position: center center;
+  background-image: url(../img/mercedes-inside.jpg);
+  background-position: center;
   @include background-cover;
 
   .container {

@@ -83,6 +83,8 @@ body {
     text-transform: uppercase;
     color: #ddd253;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    #mainNav .navbar-brand .text {
+      color: #ddd253; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #ddd253; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -134,8 +136,8 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/background.jpg");
-  background-position: center center;
+  background-image: url(../img/mercedes-inside.jpg);
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
