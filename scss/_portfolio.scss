@@ -70,3 +70,32 @@
   background-position: center;
   background-size: cover;
 }
+
+#contact {
+  margin-bottom: 100px;
+}
+
+.callus {
+  background: $primary;
+  font-size: 15pt;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 20px;
+  border: 3px $text solid;
+  border-radius: 50px;
+  z-index: 1000;
+
+  .icon {
+    font-size: 40pt;
+    margin-right: 10px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text !important;
+    text-decoration: none;
+  }
+}
