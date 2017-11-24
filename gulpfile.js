@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var sourcemaps = require('gulp-sourcemaps')
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -32,12 +33,14 @@ gulp.task('sass', function() {
 // Minify compiled CSS
 gulp.task('minify-css', ['sass'], function() {
   return gulp.src('css/creative.css')
+	.pipe(sourcemaps.init())
     .pipe(cleanCSS({
       compatibility: 'ie8'
     }))
     .pipe(rename({
       suffix: '.min'
     }))
+	.pipe(sourcemaps.write())
     .pipe(gulp.dest('css'))
     .pipe(browserSync.reload({
       stream: true
@@ -102,7 +105,7 @@ gulp.task('browserSync', function() {
   browserSync.init({
     server: {
       baseDir: ''
-    },
+    }
   })
 })
 

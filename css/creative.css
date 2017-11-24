@@ -106,7 +106,7 @@ body {
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
-      background-color: transparent; }
+      background-color: rgba(0, 0, 0, 0.5); }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -121,7 +121,7 @@ body {
           color: #fff; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #fff; }
+        background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           color: #a99e21; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {

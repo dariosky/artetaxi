@@ -1,4 +1,7 @@
 // Styling for the navbar
+$navBackInitial: transparentize(black, 0.5);
+$navBackFixed: white;
+
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $white;
@@ -40,7 +43,7 @@
   }
   @media (min-width: 992px) {
     border-color: transparent;
-    background-color: transparent;
+    background-color: $navBackInitial;
     .navbar-brand {
       color: fade-out($white, .3);
       &:focus,
@@ -60,7 +63,7 @@
     }
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
-      background-color: $white;
+      background-color: $navBackFixed;
       .navbar-brand {
         color: $dark-text;
         &:focus,
