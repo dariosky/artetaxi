@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-11-25 14:03+0100\n"
+"POT-Creation-Date: 2017-11-25 14:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: template/index.html:73
+#: template/index.html:73 template/index.html:227
 msgid "Contatti"
 msgstr ""
 
@@ -66,5 +66,108 @@ msgid ""
 "\t\t\t\t\tclienti garanzia di massima qualità, puntualità prezzo "
 "trasparente\n"
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
+msgstr ""
+
+#: template/index.html:111
+msgid "Abbiamo ciò di cui hai bisogno"
+msgstr ""
+
+#: template/index.html:115
+msgid ""
+"I punti di forza del nostro gruppo sono una vasta gamma di automezzi,\n"
+"\t\t\t\t\tle Berline per i vostri viaggi d'affari, le nostre Station "
+"Wagon e monovolume,\n"
+"\t\t\t\t\ti nostri pulmini ad otto posti ed il nostro mezzo per disabili "
+"per andare\n"
+"\t\t\t\t\tovunque voi vogliate, senza tralasciare un team di autisti che "
+"operano ormai\n"
+"\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
+msgstr ""
+
+#: template/index.html:122
+msgid ""
+"Assicuriamo la nostra puntuale presenza ovunque Voi lo richiediate\n"
+"\t\t\t\t\t24 ore su 24 per 365 giorni e su richiesta forniamo autisti con"
+"\n"
+"\t\t\t\t\tconoscenza della lingua inglese, francese e tedesca.\n"
+"\t\t\t\t\tSaremo lieti di offrirVi ulteriori informazioni mettendo tutta "
+"la\n"
+"\t\t\t\t\tnostra esperienza a Vostra disposizione."
+msgstr ""
+
+#: template/index.html:130
+msgid "Il tutto per soddisfare ogni vostra esigenza."
+msgstr ""
+
+#: template/index.html:133
+msgid "Vienici a trovare!"
+msgstr ""
+
+#: template/index.html:144
+msgid "Al tuo servizio"
+msgstr ""
+
+#: template/index.html:154
+msgid "Servizio Taxi"
+msgstr ""
+
+#: template/index.html:156
+msgid "Il miglior trasporto di passeggeri pubblico"
+msgstr ""
+
+#: template/index.html:163
+msgid "Viaggi d'affari"
+msgstr ""
+
+#: template/index.html:165
+msgid "Concentrati sul tuo business, al viaggio pensiamo noi"
+msgstr ""
+
+#: template/index.html:172
+msgid "Tours"
+msgstr ""
+
+#: template/index.html:174
+msgid ""
+"Visite in città ed escursioni turistiche con possibilità di prenotazione\n"
+"\t\t\t\t\t\tguide"
+msgstr ""
+
+#: template/index.html:182
+msgid "Trasferimenti"
+msgstr ""
+
+#: template/index.html:184
+msgid ""
+"Da e per gli aeroporti o stazioni.<br>\n"
+"\t\t\t\t\t\tTrevizio e Venezia a portata di mano\n"
+"\t\t\t\t\t\tanche con servizi collettivi"
+msgstr ""
+
+#: template/index.html:205
+msgid "VEDI"
+msgstr ""
+
+#: template/index.html:219
+msgid "Contattaci!"
+msgstr ""
+
+#: template/index.html:229
+msgid "Consorzio Autonoleggio Radiotaxi Terme Euganee"
+msgstr ""
+
+#: template/index.html:253
+msgid ""
+"SEDE PRINCIPALE<br>\n"
+"\t\t\t\tVia P. D'Abano 14<br>\n"
+"\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
+"\t\t\t\tTel: 049.66.78.42"
+msgstr ""
+
+#: template/index.html:259
+msgid ""
+"SEDE SECONDARIA<br>\n"
+"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\t35036 - Montegrotto Terme - (PD)"
 msgstr ""
 

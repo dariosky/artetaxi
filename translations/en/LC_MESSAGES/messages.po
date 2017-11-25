@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-11-25 14:03+0100\n"
-"PO-Revision-Date: 2017-11-25 13:56+0100\n"
+"POT-Creation-Date: 2017-11-25 14:29+0100\n"
+"PO-Revision-Date: 2017-11-25 14:39+0100\n"
 "Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: template/index.html:2
 msgid "it"
@@ -50,7 +51,7 @@ msgstr "Services"
 msgid "Auto"
 msgstr "Cars"
 
-#: template/index.html:73
+#: template/index.html:73 template/index.html:227
 msgid "Contatti"
 msgstr "Contacts"
 
@@ -63,13 +64,138 @@ msgid ""
 "Il Consorzio Autonoleggio Radiotaxi Terme Euganee\n"
 "\t\t\t\t\tsi avvale di operatori del settore TAXI e NCC (noleggio\n"
 "\t\t\t\t\tcon conducente) di autovetture di prestigio,\n"
-"\t\t\t\t\tponendosi da sempre come obiettivo quello di offrire ai propri\n"
+"\t\t\t\t\tponendosi da sempre come obiettivo quello di offrire ai "
+"propri\n"
 "\t\t\t\t\tclienti garanzia di massima qualità, puntualità prezzo "
 "trasparente\n"
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
 msgstr ""
 "The Radiotaxi Terme Terme Euganee Consortium carries out prestigious "
 "passenger cars in the TAXI and NCC (hire with driver) sector, always "
-"aiming to offer its customers the highest quality guarantee, punctuality,"
-" transparent price with rates agreed in advance"
+"aiming to offer its customers the highest quality guarantee, "
+"punctuality, transparent price with rates agreed in advance"
 
+#: template/index.html:111
+msgid "Abbiamo ciò di cui hai bisogno"
+msgstr "We have what you need"
+
+#: template/index.html:115
+msgid ""
+"I punti di forza del nostro gruppo sono una vasta gamma di automezzi,\n"
+"\t\t\t\t\tle Berline per i vostri viaggi d'affari, le nostre Station "
+"Wagon e monovolume,\n"
+"\t\t\t\t\ti nostri pulmini ad otto posti ed il nostro mezzo per disabili "
+"per andare\n"
+"\t\t\t\t\tovunque voi vogliate, senza tralasciare un team di autisti che "
+"operano ormai\n"
+"\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
+msgstr ""
+"The strengths of our group are a wide range of vehicles,\n"
+"the Berline for your business trips, our Station Wagon and Mopeds,\n"
+"our eight-seater minibuses and our disabled vehicle to go\n"
+"wherever you want, without leaving a team of drivers operating now\n"
+"for years in the sector with the utmost knowledge of the territory."
+
+#: template/index.html:122
+msgid ""
+"Assicuriamo la nostra puntuale presenza ovunque Voi lo richiediate\n"
+"\t\t\t\t\t24 ore su 24 per 365 giorni e su richiesta forniamo autisti "
+"con\n"
+"\t\t\t\t\tconoscenza della lingua inglese, francese e tedesca.\n"
+"\t\t\t\t\tSaremo lieti di offrirVi ulteriori informazioni mettendo tutta "
+"la\n"
+"\t\t\t\t\tnostra esperienza a Vostra disposizione."
+msgstr ""
+"We assure our punctual presence wherever you request it\n"
+"24 hours a day for 365 days and on request we provide drivers with\n"
+"knowledge of English, French and German.\n"
+"We will be delighted to offer you more information by putting all of it\n"
+"our experience at your disposal."
+
+#: template/index.html:130
+msgid "Il tutto per soddisfare ogni vostra esigenza."
+msgstr "Everything to satisfy all your needs."
+
+#: template/index.html:133
+msgid "Vienici a trovare!"
+msgstr "Come to find us!"
+
+#: template/index.html:144
+msgid "Al tuo servizio"
+msgstr "At your service"
+
+#: template/index.html:154
+msgid "Servizio Taxi"
+msgstr "Taxi Service"
+
+#: template/index.html:156
+msgid "Il miglior trasporto di passeggeri pubblico"
+msgstr "The best public transport"
+
+#: template/index.html:163
+msgid "Viaggi d'affari"
+msgstr "Business travel"
+
+#: template/index.html:165
+msgid "Concentrati sul tuo business, al viaggio pensiamo noi"
+msgstr "Focus on your business, we will think on the travel"
+
+#: template/index.html:172
+msgid "Tours"
+msgstr "Tours"
+
+#: template/index.html:174
+msgid ""
+"Visite in città ed escursioni turistiche con possibilità di "
+"prenotazione\n"
+"\t\t\t\t\t\tguide"
+msgstr ""
+"City tours and tourist excursions with possibility of booking a guide"
+
+#: template/index.html:182
+msgid "Trasferimenti"
+msgstr "Transfers"
+
+#: template/index.html:184
+msgid ""
+"Da e per gli aeroporti o stazioni.<br>\n"
+"\t\t\t\t\t\tTrevizio e Venezia a portata di mano\n"
+"\t\t\t\t\t\tanche con servizi collettivi"
+msgstr ""
+"From and to airports or stations\n"
+"Trevizio and Venice at your fingertips\n"
+"even with collective services"
+
+#: template/index.html:205
+msgid "VEDI"
+msgstr "VIEW"
+
+#: template/index.html:219
+msgid "Contattaci!"
+msgstr "Contact us!"
+
+#: template/index.html:229
+msgid "Consorzio Autonoleggio Radiotaxi Terme Euganee"
+msgstr "Car Rental Radiotaxi Terme Euganee"
+
+#: template/index.html:253
+msgid ""
+"SEDE PRINCIPALE<br>\n"
+"\t\t\t\tVia P. D'Abano 14<br>\n"
+"\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
+"\t\t\t\tTel: 049.66.78.42"
+msgstr ""
+"MAIN OFFICE<br>\n"
+"\t\t\t\tVia P. D'Abano 14<br>\n"
+"\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
+"\t\t\t\tTel: 049.66.78.42"
+
+#: template/index.html:259
+msgid ""
+"SEDE SECONDARIA<br>\n"
+"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\t35036 - Montegrotto Terme - (PD)"
+msgstr ""
+"SECONDARY OFFICE<br>\n"
+"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\t35036 - Montegrotto Terme - (PD)"

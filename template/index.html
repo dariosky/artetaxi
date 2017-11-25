@@ -195,78 +195,20 @@
 <section class="p-0" id="portfolio">
 	<div class="container-fluid p-0">
 		<div class="row no-gutters popup-gallery">
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/piazze.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/piazze.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
+			{% for image in images %}
+				<div class="col-lg-4 col-sm-6 fullback"
+					 style="background-image: url({{ image }})">
+					<a class="portfolio-box" href="{{ image }}">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text">
+									{{ _('VEDI') }}
+								</div>
 							</div>
 						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/mercedes.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/mercedes.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/padova.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/padova.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/interno.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/interno.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/parco_termale.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/parco_termale.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6 fullback"
-				 style="background-image: url(/img/portfolio/venice.jpg)">
-				<a class="portfolio-box" href="/img/portfolio/venice.jpg">
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text">
-								VEDI
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
+					</a>
+				</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

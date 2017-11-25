@@ -21,7 +21,7 @@ def translate(filename, source, target, locale):
         with open(full_target, 'w') as out:
             content = f.read()
             # look for a context file to use
-            context_path = os.path.join(source, os.path.splitext(filename)[0], '.ctx.json')
+            context_path = os.path.join(source, os.path.splitext(filename)[0]) + '.ctx.json'
             if os.path.isfile(context_path):
                 with open(context_path) as context_file:
                     context = json.load(context_file)
