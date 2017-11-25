@@ -1,26 +1,33 @@
+import json
 import os
 
 import flask
 from flask import request
 from flask_babel import Babel
 
-babel_lang = 'it'
 
+def translate(filename, source, target, lang):
+    full_source = os.path.join(source, filename)
+    full_target = os.path.join(target, filename)
+    print(f"Processing {full_source} => [{lang}] => {full_target}")
+    if not os.path.isdir(target):
+        os.makedirs(target)
 
-def translate(template, lang):
-    global babel_lang
-    babel_lang = lang
-
-    print(f"Processing {template} => {lang}")
-    if not os.path.isdir(lang):
-        os.mkdir(lang)
+    # refresh the babel translation
     request.babel_translations = None
     request.babel_locale = lang
 
-    with open(template) as f:
-        with open(os.path.join(lang, template), 'w') as out:
+    with open(full_source) as f:
+        with open(full_target, 'w') as out:
             content = f.read()
-            output = flask.render_template_string(content)
+            # look for a context file to use
+            context_path = os.path.join(source, os.path.splitext(filename)[0], '.ctx.json')
+            if os.path.isfile(context_path):
+                with open(context_path) as context_file:
+                    context = json.load(context_file)
+            else:
+                context = {}
+            output = flask.render_template_string(content, **context)
             # print(output.split("\n")[:5])
             out.write(output)
 
@@ -40,5 +47,5 @@ if __name__ == '__main__':
 
 
     with app.test_request_context():
-        translate('index.html', 'it')
-        translate('index.html', 'en')
+        translate('index.html', 'template/', '.', lang='it')
+        translate('index.html', 'template/', 'en', lang='en')

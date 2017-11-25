@@ -1,1 +1,10 @@
 _dev
+translations/
+*.py
+
+# unminified files
+*.scss
+*.less
+
+*.js
+!*.min.js
