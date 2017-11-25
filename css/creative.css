@@ -74,6 +74,8 @@ body {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
+  -webkit-box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.64);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.64);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;

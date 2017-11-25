@@ -1,0 +1,32 @@
+# English translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-11-25 01:21+0100\n"
+"PO-Revision-Date: 2017-11-25 02:11+0100\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+"Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: index.html:2
+msgid "it"
+msgstr "en"
+
+#: index.html:12
+msgid "ARTE Taxi"
+msgstr "ARTE Taxi"
+
+#: index.html:12
+msgid "Autonoleggio RadioTaxi Terme Euganee"
+msgstr "Car rental RadioTaxi Terme Euganee"

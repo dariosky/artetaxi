@@ -5,6 +5,8 @@ $navBackFixed: white;
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $white;
+
+  @include shadow;
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
