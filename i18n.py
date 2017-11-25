@@ -6,16 +6,16 @@ from flask import request
 from flask_babel import Babel
 
 
-def translate(filename, source, target, lang):
+def translate(filename, source, target, locale):
     full_source = os.path.join(source, filename)
     full_target = os.path.join(target, filename)
-    print(f"Processing {full_source} => [{lang}] => {full_target}")
+    print(f"Processing {full_source} => [{locale}] => {full_target}")
     if not os.path.isdir(target):
         os.makedirs(target)
 
     # refresh the babel translation
     request.babel_translations = None
-    request.babel_locale = lang
+    request.babel_locale = locale
 
     with open(full_source) as f:
         with open(full_target, 'w') as out:
@@ -27,6 +27,7 @@ def translate(filename, source, target, lang):
                     context = json.load(context_file)
             else:
                 context = {}
+            context['locale'] = locale
             output = flask.render_template_string(content, **context)
             # print(output.split("\n")[:5])
             out.write(output)
@@ -34,18 +35,9 @@ def translate(filename, source, target, lang):
 
 if __name__ == '__main__':
     app = flask.Flask(__name__, template_folder='')
-    app.config.update({'BABEL_TRANSLATION_DIRECTORIES': 'translations'})
-    # app.config.from_pyfile('babel.cfg')
+    # app.config.update({'BABEL_TRANSLATION_DIRECTORIES': 'translations'})
     babel = Babel(app, default_locale='it')
 
-
-    @babel.localeselector
-    def get_locale():
-        global babel_lang
-        print("Now locale is ", babel_lang)
-        return babel_lang
-
-
     with app.test_request_context():
-        translate('index.html', 'template/', '.', lang='it')
-        translate('index.html', 'template/', 'en', lang='en')
+        translate('index.html', 'template/', '.', locale='it')
+        translate('index.html', 'template/', 'en', locale='en')

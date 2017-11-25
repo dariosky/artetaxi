@@ -7,26 +7,69 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-11-25 01:21+0100\n"
-"PO-Revision-Date: 2017-11-25 02:11+0100\n"
+"POT-Creation-Date: 2017-11-25 14:03+0100\n"
+"PO-Revision-Date: 2017-11-25 13:56+0100\n"
+"Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
-"Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
-"X-Generator: Poedit 2.0.4\n"
 
-#: index.html:2
+#: template/index.html:2
 msgid "it"
 msgstr "en"
 
-#: index.html:12
+#: template/index.html:12
 msgid "ARTE Taxi"
 msgstr "ARTE Taxi"
 
-#: index.html:12
+#: template/index.html:12
 msgid "Autonoleggio RadioTaxi Terme Euganee"
 msgstr "Car rental RadioTaxi Terme Euganee"
+
+#: template/index.html:50
+msgid "A.R.T.E."
+msgstr "A.R.T.E."
+
+#: template/index.html:50
+msgid "Autonoleggio Radio Taxi"
+msgstr "Car rental RadioTaxi"
+
+#: template/index.html:61
+msgid "Chi siamo"
+msgstr "About us"
+
+#: template/index.html:65
+msgid "Servizi"
+msgstr "Services"
+
+#: template/index.html:69
+msgid "Auto"
+msgstr "Cars"
+
+#: template/index.html:73
+msgid "Contatti"
+msgstr "Contacts"
+
+#: template/index.html:85
+msgid "ARTE Taxi - Terme Euganee"
+msgstr "ARTE Taxi - Terme Euganee"
+
+#: template/index.html:91
+msgid ""
+"Il Consorzio Autonoleggio Radiotaxi Terme Euganee\n"
+"\t\t\t\t\tsi avvale di operatori del settore TAXI e NCC (noleggio\n"
+"\t\t\t\t\tcon conducente) di autovetture di prestigio,\n"
+"\t\t\t\t\tponendosi da sempre come obiettivo quello di offrire ai propri\n"
+"\t\t\t\t\tclienti garanzia di massima qualità, puntualità prezzo "
+"trasparente\n"
+"\t\t\t\t\tcon tariffe pattuite preventivamente"
+msgstr ""
+"The Radiotaxi Terme Terme Euganee Consortium carries out prestigious "
+"passenger cars in the TAXI and NCC (hire with driver) sector, always "
+"aiming to offer its customers the highest quality guarantee, punctuality,"
+" transparent price with rates agreed in advance"
+
