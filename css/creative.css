@@ -74,6 +74,7 @@ body {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
+  width: 100%;
   -webkit-box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.64);
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.64);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -85,6 +86,11 @@ body {
     text-transform: uppercase;
     color: #ddd253;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    #mainNav .navbar-brand .other {
+      display: none; }
+      @media (min-width: 992px) {
+        #mainNav .navbar-brand .other {
+          display: inline-block; } }
     #mainNav .navbar-brand .text {
       color: #ddd253; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -243,13 +249,26 @@ header.masthead {
   z-index: 1000; }
   .callus .icon {
     font-size: 40pt;
-    margin-right: 10px; }
+    margin: 0 10px; }
+  .callus .number {
+    display: none; }
+    @media (min-width: 992px) {
+      .callus .number {
+        display: inline-block; } }
   .callus a {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #333 !important;
     text-decoration: none; }
+
+.taxi-img {
+  max-width: 80%; }
+
+.map {
+  margin: auto;
+  width: 90%;
+  height: 50vh; }
 
 .text-primary {
   color: #333 !important; }

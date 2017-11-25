@@ -88,7 +88,13 @@
 
   .icon {
     font-size: 40pt;
-    margin-right: 10px;
+    margin: 0 10px;
+  }
+  .number {
+    display: none;
+    @media (min-width: 992px) {
+      display: inline-block;
+    }
   }
 
   a {
@@ -98,4 +104,14 @@
     color: $text !important;
     text-decoration: none;
   }
+}
+
+.taxi-img {
+  max-width: 80%;
+}
+
+.map {
+  margin: auto;
+  width: 90%;
+  height: 50vh;
 }
