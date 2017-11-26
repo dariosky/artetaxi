@@ -270,6 +270,9 @@ header.masthead {
   width: 90%;
   height: 50vh; }
 
+.flag {
+  height: 1em; }
+
 .text-primary {
   color: #333 !important; }
 

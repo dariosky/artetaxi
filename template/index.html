@@ -74,6 +74,22 @@
 					<a class="nav-link js-scroll-trigger"
 					   href="#contact">{{ _('Contatti') }}</a>
 				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="langDD"
+					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{% for language, text, img, url in languages if language == locale %}
+							<img class='flag' src="{{ img }}" alt="">
+						{% endfor %}
+					</a>
+					<div class="dropdown-menu" aria-labelledby="langDD">
+						{% for language, text, img, url in languages %}
+							<a class="dropdown-item" href="{{ url }}">
+								<img class='flag' src="{{ img }}" alt="">
+								{{ text }}
+							</a>
+						{% endfor %}
+					</div>
+				</li>
 			</ul>
 		</div>
 	</div>

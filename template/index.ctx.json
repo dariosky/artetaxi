@@ -1,10 +1,24 @@
 {
-  "images":[
+  "images": [
     "/img/portfolio/piazze.jpg",
     "/img/portfolio/mercedes.jpg",
     "/img/portfolio/padova.jpg",
     "/img/portfolio/interno.jpg",
     "/img/portfolio/parco_termale.jpg",
     "/img/portfolio/venice.jpg"
+  ],
+  "languages": [
+    [
+      "it",
+      "Italiano",
+      "/img/flags/flag-it.png",
+      "/"
+    ],
+    [
+      "en",
+      "English",
+      "/img/flags/flag-en.png",
+      "/en/"
+    ]
   ]
 }
