@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-11-25 19:34+0100\n"
+"POT-Creation-Date: 2017-12-02 02:15+0100\n"
 "PO-Revision-Date: 2017-11-25 01:06+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -50,15 +50,15 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: template/index.html:75 template/index.html:229
+#: template/index.html:75 template/index.html:245
 msgid "Contatti"
 msgstr ""
 
-#: template/index.html:87
+#: template/index.html:103
 msgid "ARTE Taxi - Terme Euganee"
 msgstr ""
 
-#: template/index.html:93
+#: template/index.html:109
 msgid ""
 "Il Consorzio Autonoleggio Radiotaxi Terme Euganee\n"
 "\t\t\t\t\tsi avvale di operatori del settore TAXI e NCC (noleggio\n"
@@ -69,11 +69,11 @@ msgid ""
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
 msgstr ""
 
-#: template/index.html:113
+#: template/index.html:129
 msgid "Abbiamo ciò di cui hai bisogno"
 msgstr ""
 
-#: template/index.html:117
+#: template/index.html:133
 msgid ""
 "I punti di forza del nostro gruppo sono una vasta gamma di automezzi,\n"
 "\t\t\t\t\tle Berline per i vostri viaggi d'affari, le nostre Station "
@@ -85,7 +85,7 @@ msgid ""
 "\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
 msgstr ""
 
-#: template/index.html:124
+#: template/index.html:140
 msgid ""
 "Assicuriamo la nostra puntuale presenza ovunque Voi lo richiediate\n"
 "\t\t\t\t\t24 ore su 24 per 365 giorni e su richiesta forniamo autisti con"
@@ -96,68 +96,68 @@ msgid ""
 "\t\t\t\t\tnostra esperienza a Vostra disposizione."
 msgstr ""
 
-#: template/index.html:132
+#: template/index.html:148
 msgid "Il tutto per soddisfare ogni vostra esigenza."
 msgstr ""
 
-#: template/index.html:135
+#: template/index.html:151
 msgid "Vienici a trovare!"
 msgstr ""
 
-#: template/index.html:146
+#: template/index.html:162
 msgid "Al tuo servizio"
 msgstr ""
 
-#: template/index.html:156
+#: template/index.html:172
 msgid "Servizio Taxi"
 msgstr ""
 
-#: template/index.html:158
+#: template/index.html:174
 msgid "Il miglior trasporto di passeggeri pubblico"
 msgstr ""
 
-#: template/index.html:165
+#: template/index.html:181
 msgid "Viaggi d'affari"
 msgstr ""
 
-#: template/index.html:167
+#: template/index.html:183
 msgid "Concentrati sul tuo business, al viaggio pensiamo noi"
 msgstr ""
 
-#: template/index.html:174
+#: template/index.html:190
 msgid "Tours"
 msgstr ""
 
-#: template/index.html:176
+#: template/index.html:192
 msgid ""
 "Visite in città ed escursioni turistiche con possibilità di prenotazione\n"
 "\t\t\t\t\t\tguide"
 msgstr ""
 
-#: template/index.html:184
+#: template/index.html:200
 msgid "Trasferimenti"
 msgstr ""
 
-#: template/index.html:186
+#: template/index.html:202
 msgid ""
 "Da e per gli aeroporti o stazioni.<br>\n"
 "\t\t\t\t\t\tTreviso e Venezia a portata di mano\n"
 "\t\t\t\t\t\tanche con servizi collettivi"
 msgstr ""
 
-#: template/index.html:207
+#: template/index.html:223
 msgid "VEDI"
 msgstr ""
 
-#: template/index.html:221
+#: template/index.html:237
 msgid "Contattaci"
 msgstr ""
 
-#: template/index.html:231
+#: template/index.html:247
 msgid "Consorzio Autonoleggio Radiotaxi Terme Euganee"
 msgstr ""
 
-#: template/index.html:257
+#: template/index.html:273
 msgid ""
 "SEDE PRINCIPALE<br>\n"
 "\t\t\t\tVia P. D'Abano 14<br>\n"
@@ -165,7 +165,7 @@ msgid ""
 "\t\t\t\tTel: 049.66.78.42"
 msgstr ""
 
-#: template/index.html:263
+#: template/index.html:279
 msgid ""
 "SEDE SECONDARIA<br>\n"
 "\t\t\t\tviale Stazione<br>\n"

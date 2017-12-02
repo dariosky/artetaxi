@@ -41,3 +41,4 @@ if __name__ == '__main__':
     with app.test_request_context():
         translate('index.html', 'template/', '.', locale='it')
         translate('index.html', 'template/', 'en', locale='en')
+        translate('index.html', 'template/', 'pt', locale='pt')

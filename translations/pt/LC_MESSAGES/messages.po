@@ -1,17 +1,17 @@
-# English translations for PROJECT.
+# Portuguese translations for Arte.
 # Copyright (C) 2017 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# This file is distributed under the same license as the Arte project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: Arte Taxi\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-12-02 02:15+0100\n"
-"PO-Revision-Date: 2017-11-25 19:33+0100\n"
+"PO-Revision-Date: 2017-12-02 02:15+0100\n"
 "Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
-"Language: en\n"
-"Language-Team: en <LL@li.org>\n"
+"Language: pt\n"
+"Language-Team: federicocesarotto@libero.it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: template/index.html:2
 msgid "it"
-msgstr "en"
+msgstr "pt"
 
 #: template/index.html:12
 msgid "ARTE Taxi"
@@ -28,7 +28,7 @@ msgstr "ARTE Taxi"
 
 #: template/index.html:12
 msgid "Autonoleggio RadioTaxi Terme Euganee"
-msgstr "Car rental RadioTaxi Terme Euganee"
+msgstr "Autonoleggio RadioTaxi Terme Euganee"
 
 #: template/index.html:51
 msgid "A.R.T.E."
@@ -36,23 +36,23 @@ msgstr "A.R.T.E."
 
 #: template/index.html:52
 msgid "Autonoleggio Radio Taxi"
-msgstr "Car rental RadioTaxi"
+msgstr "Autonoleggio Radio Taxi"
 
 #: template/index.html:63
 msgid "Chi siamo"
-msgstr "About us"
+msgstr "Quem Somos"
 
 #: template/index.html:67
 msgid "Servizi"
-msgstr "Services"
+msgstr "Serviços"
 
 #: template/index.html:71
 msgid "Auto"
-msgstr "Cars"
+msgstr "Carros"
 
 #: template/index.html:75 template/index.html:245
 msgid "Contatti"
-msgstr "Contacts"
+msgstr "Contatos"
 
 #: template/index.html:103
 msgid "ARTE Taxi - Terme Euganee"
@@ -68,14 +68,18 @@ msgid ""
 "trasparente\n"
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
 msgstr ""
-"The Radiotaxi Terme Terme Euganee Consortium carries out prestigious "
-"passenger cars in the TAXI and NCC (hire with driver) sector, always "
-"aiming to offer its customers the highest quality guarantee, punctuality,"
-" transparent price with rates agreed in advance"
+"O Consórcio ARTE TAXI -TERME EUGANEE oferece um time de profissionais "
+"altamente capacitados e regolamentados d'acordo com as leis italianas na "
+"prestação de serviços de táxi e aluguel de carro com o motorista "
+".(chofer)\n"
+"Todos os seus motoristas são do setor de táxi e profissionais italianos.\n"
+"Oferecendo aos seus clientes carros luxuosos e elegantes, afim de "
+"oferecer máxima garantia de qualidade ,pontualidade,preço honesto e "
+"transparente com tarifas acessivéis, sempre previamente concordadas"
 
 #: template/index.html:129
 msgid "Abbiamo ciò di cui hai bisogno"
-msgstr "We have what you need"
+msgstr "TEMOS O QUE VOCÊ PRECISA"
 
 #: template/index.html:133
 msgid ""
@@ -88,11 +92,14 @@ msgid ""
 "operano ormai\n"
 "\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
 msgstr ""
-"The strengths of our group are a wide range of vehicles,\n"
-"the Berline for your business trips, our Station Wagon and Mopeds,\n"
-"our eight-seater minibuses and our disabled vehicle to go\n"
-"wherever you want, without leaving a team of drivers operating now\n"
-"for years in the sector with the utmost knowledge of the territory."
+"Os pontos de força da ARTE TÁXI são uma variada gama de marcas de "
+"automovéis renomadas elegantes e confortavéis para atender todo tipo de "
+"necessidade de seus clientes em todo tipo de viagem ,sendo essa de "
+"negócio ou passeio .\n"
+"Carros como Station Wagon,Sedans,minibus para 8 passageiros .\n"
+"Temos também carro para pessoas com necessidades especiais.\n"
+"Sempre com um team de motoristas que estão há muitos anos no mercado de "
+"táxi ,com um amplo conhecimento do próprio território."
 
 #: template/index.html:140
 msgid ""
@@ -104,53 +111,55 @@ msgid ""
 "la\n"
 "\t\t\t\t\tnostra esperienza a Vostra disposizione."
 msgstr ""
-"We assure our punctual presence wherever you request it\n"
-"24 hours a day for 365 days and on request we provide drivers with\n"
-"knowledge of English, French and German.\n"
-"We will be delighted to offer you more information by putting all of it\n"
-"our experience at your disposal."
+"Oferecemos nossa presença sempre pontual onde seremos solicitados ,24 "
+"horas ao dia ,365 dias ao ano com motoristas que falam "
+"Inglês,Alemão,francês.\n"
+"Estaremos a disposição e será um prazer recebê-los para oferecer outras "
+"informações e realizar a sua exigência."
 
 #: template/index.html:148
 msgid "Il tutto per soddisfare ogni vostra esigenza."
-msgstr "Everything to satisfy all your needs."
+msgstr "para oferecer outras informações e realizar a sua exigência."
 
 #: template/index.html:151
 msgid "Vienici a trovare!"
-msgstr "Come to find us!"
+msgstr "Venha nos visitar,seremos felizes em conhece-lo!"
 
 #: template/index.html:162
 msgid "Al tuo servizio"
-msgstr "At your service"
+msgstr "AO TEU SERVIÇO"
 
 #: template/index.html:172
 msgid "Servizio Taxi"
-msgstr "Taxi Service"
+msgstr "SERVIÇO TÁXI"
 
 #: template/index.html:174
 msgid "Il miglior trasporto di passeggeri pubblico"
-msgstr "The best public transport"
+msgstr "O melhor transporte de passageiros público"
 
 #: template/index.html:181
 msgid "Viaggi d'affari"
-msgstr "Business travel"
+msgstr "VIAGEM DE NEGÓCIOS"
 
 #: template/index.html:183
 msgid "Concentrati sul tuo business, al viaggio pensiamo noi"
-msgstr "Focus on your business, we will think on the travel"
+msgstr "Pensa ao teu business, na viagem pensamos nós"
 
 #: template/index.html:190
 msgid "Tours"
-msgstr "Tours"
+msgstr "TOURS"
 
 #: template/index.html:192
 msgid ""
 "Visite in città ed escursioni turistiche con possibilità di prenotazione\n"
 "\t\t\t\t\t\tguide"
-msgstr "City tours and tourist excursions with possibility of booking a guide"
+msgstr ""
+"Visitas e excursões turísticas com possibilidade de fazer reserva de um "
+"guia turístico"
 
 #: template/index.html:200
 msgid "Trasferimenti"
-msgstr "Transfers"
+msgstr "TRANSFERIMENTOS"
 
 #: template/index.html:202
 msgid ""
@@ -158,21 +167,21 @@ msgid ""
 "\t\t\t\t\t\tTreviso e Venezia a portata di mano\n"
 "\t\t\t\t\t\tanche con servizi collettivi"
 msgstr ""
-"From and to airports or stations<br>\n"
-"Treviso and Venice at your fingertips\n"
-"even with collective services"
+"Dos aeroportos e para aeroportos ou estações. \n"
+"Treviso e Venezia de modo fácil.De Táxi ou minibus.Oferecendo também "
+"serviços condivisos com outros passageiros"
 
 #: template/index.html:223
 msgid "VEDI"
-msgstr "VIEW"
+msgstr "VEDI"
 
 #: template/index.html:237
 msgid "Contattaci"
-msgstr "Contact us"
+msgstr "Contattaci"
 
 #: template/index.html:247
 msgid "Consorzio Autonoleggio Radiotaxi Terme Euganee"
-msgstr "Car Rental Radiotaxi Terme Euganee"
+msgstr "Consorzio Autonoleggio Radiotaxi Terme Euganee"
 
 #: template/index.html:273
 msgid ""
@@ -181,7 +190,7 @@ msgid ""
 "\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
 "\t\t\t\tTel: 049.66.78.42"
 msgstr ""
-"MAIN OFFICE<br>\n"
+"MATRIZ PRINCIPAL<br>\n"
 "\t\t\t\tVia P. D'Abano 14<br>\n"
 "\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
 "\t\t\t\tTel: 049.66.78.42"
@@ -192,19 +201,7 @@ msgid ""
 "\t\t\t\tviale Stazione<br>\n"
 "\t\t\t\t35036 - Montegrotto Terme - (PD)"
 msgstr ""
-"SECONDARY OFFICE<br>\n"
+"SEDE<br>\n"
 "\t\t\t\tviale Stazione<br>\n"
 "\t\t\t\t35036 - Montegrotto Terme - (PD)"
-
-#~ msgid ""
-#~ "Da e per gli aeroporti o stazioni.<br>\n"
-#~ "\t\t\t\t\t\tTrevizio e Venezia a portata di mano\n"
-#~ "\t\t\t\t\t\tanche con servizi collettivi"
-#~ msgstr ""
-#~ "From and to airports or stations\n"
-#~ "Trevizio and Venice at your fingertips\n"
-#~ "even with collective services"
-
-#~ msgid "Contattaci!"
-#~ msgstr "Contact us!"
 

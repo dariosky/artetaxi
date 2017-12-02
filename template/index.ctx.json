@@ -19,6 +19,12 @@
       "English",
       "/img/flags/flag-en.png",
       "/en/"
+    ],
+    [
+      "pt",
+      "Português",
+      "/img/flags/flag-pt.png",
+      "/pt/"
     ]
   ]
 }
