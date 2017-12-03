@@ -33,12 +33,15 @@ def translate(filename, source, target, locale):
             out.write(output)
 
 
-if __name__ == '__main__':
+def main():
     app = flask.Flask(__name__, template_folder='')
     # app.config.update({'BABEL_TRANSLATION_DIRECTORIES': 'translations'})
-    babel = Babel(app, default_locale='it')
-
+    Babel(app, default_locale='it')
     with app.test_request_context():
         translate('index.html', 'template/', '.', locale='it')
-        translate('index.html', 'template/', 'en', locale='en')
-        translate('index.html', 'template/', 'pt', locale='pt')
+        for locale in ('en', 'pt', 'ru'):
+            translate('index.html', 'template/', locale, locale=locale)
+
+
+if __name__ == '__main__':
+    main()

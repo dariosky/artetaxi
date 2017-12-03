@@ -1,0 +1,6 @@
+TRANSLATIONS=$(find . -type f -name '*.po')
+echo Translating $TRANSLATIONS
+po-to-xls -o translations.xlsx $TRANSLATIONS
+
+
+# xls-to-po ru translations.xlsx translations/ru/LC_MESSAGES/messages.po

@@ -25,6 +25,12 @@
       "Português",
       "/img/flags/flag-pt.png",
       "/pt/"
+    ],
+    [
+      "ru",
+      "Русский",
+      "/img/flags/flag-ru.png",
+      "/ru/"
     ]
   ]
 }

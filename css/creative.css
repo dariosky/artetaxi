@@ -273,6 +273,9 @@ header.masthead {
 .flag {
   height: 1em; }
 
+.big {
+  font-size: 40pt; }
+
 .text-primary {
   color: #333 !important; }
 
