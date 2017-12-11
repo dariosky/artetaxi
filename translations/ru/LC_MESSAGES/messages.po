@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-03 12:32+0100\n"
-"PO-Revision-Date: 2017-12-02 23:28+0100\n"
+"POT-Creation-Date: 2017-12-11 23:56+0100\n"
+"PO-Revision-Date: 2017-12-11 23:45+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -21,39 +21,39 @@ msgstr "ru"
 
 #: template/index.html:12
 msgid "ARTE Taxi"
-msgstr "Arte Taxisky"
+msgstr "ARTE Taxi "
 
 #: template/index.html:12
 msgid "Autonoleggio RadioTaxi Terme Euganee"
-msgstr ""
+msgstr "прокат автомобилей радио такси Terme Euganee "
 
 #: template/index.html:51
 msgid "A.R.T.E."
-msgstr ""
+msgstr "A.R.T.E"
 
 #: template/index.html:52
 msgid "Autonoleggio Radio Taxi"
-msgstr ""
+msgstr "прокат автомобилей радио такси"
 
 #: template/index.html:63
 msgid "Chi siamo"
-msgstr ""
+msgstr "кто мы"
 
 #: template/index.html:67
 msgid "Servizi"
-msgstr ""
+msgstr "обслуживание"
 
 #: template/index.html:71
 msgid "Auto"
-msgstr ""
+msgstr "автомобиль"
 
 #: template/index.html:75 template/index.html:245
 msgid "Contatti"
-msgstr ""
+msgstr "контакты"
 
 #: template/index.html:103
 msgid "ARTE Taxi - Terme Euganee"
-msgstr ""
+msgstr "ARTE Taxi Terme Euganee"
 
 #: template/index.html:109
 msgid ""
@@ -65,10 +65,15 @@ msgid ""
 "trasparente\n"
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
 msgstr ""
+"Консорциум Прокат автомобилей с водителем Радиотакси Терме Эуганее "
+"включает в себя операторов отрасли Taxi и CNN (прокат машины с "
+"водителем). Мы гарантируем своим клиентам великолепное качество "
+"обслуживания, пунктуальность, прозрачные цены по предварительно "
+"обговоренным тарифам, обслуживание на престижных моделях автомобилей."
 
 #: template/index.html:129
 msgid "Abbiamo ciò di cui hai bisogno"
-msgstr ""
+msgstr "У нас вы найдете  все то, что ищете!"
 
 #: template/index.html:133
 msgid ""
@@ -81,6 +86,14 @@ msgid ""
 "operano ormai\n"
 "\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
 msgstr ""
+"Сильные точки нашей группы являются самыми разнообразными транспортными "
+"средствами,  Berlina (седан) для деловых встреч, Station Wagon и минивэны"
+" для семейных поездок, микроавтобусы на 8 мест для групп, автомобили для "
+"перевозки инвалидов,  в любом месте назначения.  Еще одним важным "
+"преимуществом является то, что наши водители обладают многолетним опытом "
+"вождения и отличным знанием местности. \n"
+"\n"
+"\n"
 
 #: template/index.html:140
 msgid ""
@@ -92,48 +105,53 @@ msgid ""
 "la\n"
 "\t\t\t\t\tnostra esperienza a Vostra disposizione."
 msgstr ""
+"Мы гарантируем круглосуточное обслуживание в любое время года в любом "
+"месте Вашего нахождения.  По Вашему дополнительному запросу мы "
+"предоставим водителей со знанием английского, французского и немецкого "
+"языков. Будем рады предоставить Вам наши услуги и, в случае "
+"необходимости, любую дополнительную информацию\n"
 
 #: template/index.html:148
 msgid "Il tutto per soddisfare ogni vostra esigenza."
-msgstr ""
+msgstr "Все, чтобы удовлетворить все ваши потребности."
 
 #: template/index.html:151
 msgid "Vienici a trovare!"
-msgstr ""
+msgstr "Мы ждем Вас!"
 
 #: template/index.html:162
 msgid "Al tuo servizio"
-msgstr ""
+msgstr "В Вашем распоряжении:"
 
 #: template/index.html:172
 msgid "Servizio Taxi"
-msgstr ""
+msgstr "Сервис такси"
 
 #: template/index.html:174
 msgid "Il miglior trasporto di passeggeri pubblico"
-msgstr ""
+msgstr "Для лучшего транспортного обслуживания"
 
 #: template/index.html:181
 msgid "Viaggi d'affari"
-msgstr ""
+msgstr "Деловые поездки"
 
 #: template/index.html:183
 msgid "Concentrati sul tuo business, al viaggio pensiamo noi"
-msgstr ""
+msgstr "Сосредоточьтесь на своем бизнесе, об остальном позаботимся мы"
 
 #: template/index.html:190
 msgid "Tours"
-msgstr ""
+msgstr "Туры"
 
 #: template/index.html:192
 msgid ""
 "Visite in città ed escursioni turistiche con possibilità di prenotazione\n"
 "\t\t\t\t\t\tguide"
-msgstr ""
+msgstr "Городские туры и туристические экскурсии с возможностью бронирования гида"
 
 #: template/index.html:200
 msgid "Trasferimenti"
-msgstr ""
+msgstr "Транспортный трансфер"
 
 #: template/index.html:202
 msgid ""
@@ -141,18 +159,16 @@ msgid ""
 "\t\t\t\t\t\tTreviso e Venezia a portata di mano\n"
 "\t\t\t\t\t\tanche con servizi collettivi"
 msgstr ""
-
-#: template/index.html:223
-msgid "VEDI"
-msgstr ""
+"В аэропорты/ и на вокзалы/с Возможен групповой трансфер в близжайшие "
+"города Венецию и Тревизо"
 
 #: template/index.html:237
 msgid "Contattaci"
-msgstr ""
+msgstr "Ждем ваших обращений!"
 
 #: template/index.html:247
 msgid "Consorzio Autonoleggio Radiotaxi Terme Euganee"
-msgstr ""
+msgstr "прокат автомобилей радио такси  Terme Euganee"
 
 #: template/index.html:273
 msgid ""
@@ -161,11 +177,26 @@ msgid ""
 "\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
 "\t\t\t\tTel: 049.66.78.42"
 msgstr ""
+"главный офис <br>     Via P. D'Abano 14<br>     35031 - Abano Terme - "
+"(PD)<br>     Tel: 049.66.78.42"
 
 #: template/index.html:279
 msgid ""
 "SEDE SECONDARIA<br>\n"
-"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\tpiazzale Stazione<br>\n"
 "\t\t\t\t35036 - Montegrotto Terme - (PD)"
 msgstr ""
+"вторичный офис <br> Piazzale  Stazione<br>     35036 - Montegrotto Terme "
+"– (PD)"
+
+#~ msgid "VEDI"
+#~ msgstr "Просмотр"
+
+#~ msgid ""
+#~ "SEDE SECONDARIA<br>\n"
+#~ "\t\t\t\tviale Stazione<br>\n"
+#~ "\t\t\t\t35036 - Montegrotto Terme - (PD)"
+#~ msgstr ""
+#~ "вторичный офис <br> Piazzale  Stazione<br>"
+#~ "     35036 - Montegrotto Terme – (PD)"
 

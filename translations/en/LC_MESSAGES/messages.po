@@ -1,15 +1,11 @@
-# English translations for PROJECT.
-# Copyright (C) 2017 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# This file was generated from translations.xlsx
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-03 12:32+0100\n"
-"PO-Revision-Date: 2017-11-25 19:33+0100\n"
-"Last-Translator: Dario Varotto <dariosky@gmail.com>\n"
+"POT-Creation-Date: 2017-12-11 23:56+0100\n"
+"PO-Revision-Date: 2017-12-11 23:45+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -68,14 +64,14 @@ msgid ""
 "trasparente\n"
 "\t\t\t\t\tcon tariffe pattuite preventivamente"
 msgstr ""
-"The Radiotaxi Terme Terme Euganee Consortium carries out prestigious "
-"passenger cars in the TAXI and NCC (hire with driver) sector, always "
-"aiming to offer its customers the highest quality guarantee, punctuality,"
-" transparent price with rates agreed in advance"
+"The Radiotaxi Terme Terme Euganee Consortium has a prestigious selection "
+"of passenger cars in the TAXI and hire with driver sector, always aiming "
+"to guarantee its customers the higest quality, punctuality and "
+"transparent prices with rates agreed in advance."
 
 #: template/index.html:129
 msgid "Abbiamo ciò di cui hai bisogno"
-msgstr "We have what you need"
+msgstr "We have everything you need"
 
 #: template/index.html:133
 msgid ""
@@ -89,10 +85,11 @@ msgid ""
 "\t\t\t\t\tda anni nel settore con la massima conoscenza del territorio."
 msgstr ""
 "The strengths of our group are a wide range of vehicles,\n"
-"the Berline for your business trips, our Station Wagon and Mopeds,\n"
+"Our sedans for your business trips, our Station Wagon and Minivans,\n"
 "our eight-seater minibuses and our disabled vehicle to go\n"
-"wherever you want, without leaving a team of drivers operating now\n"
-"for years in the sector with the utmost knowledge of the territory."
+"wherever you want, without forgetting a team of drivers who have been "
+"operating in the sector \n"
+"for years  with an utmost knowledge of the territory."
 
 #: template/index.html:140
 msgid ""
@@ -105,18 +102,19 @@ msgid ""
 "\t\t\t\t\tnostra esperienza a Vostra disposizione."
 msgstr ""
 "We assure our punctual presence wherever you request it\n"
-"24 hours a day for 365 days and on request we provide drivers with\n"
+"24 hours a day for 365 days a year and on request we provide drivers with"
+"\n"
 "knowledge of English, French and German.\n"
-"We will be delighted to offer you more information by putting all of it\n"
+"We would be delighted to offer you more information, putting all of it\n"
 "our experience at your disposal."
 
 #: template/index.html:148
 msgid "Il tutto per soddisfare ogni vostra esigenza."
-msgstr "Everything to satisfy all your needs."
+msgstr "Everything to satisfy your needs."
 
 #: template/index.html:151
 msgid "Vienici a trovare!"
-msgstr "Come to find us!"
+msgstr "Come and see us!"
 
 #: template/index.html:162
 msgid "Al tuo servizio"
@@ -162,10 +160,6 @@ msgstr ""
 "Treviso and Venice at your fingertips\n"
 "even with collective services"
 
-#: template/index.html:223
-msgid "VEDI"
-msgstr "VIEW"
-
 #: template/index.html:237
 msgid "Contattaci"
 msgstr "Contact us"
@@ -182,29 +176,29 @@ msgid ""
 "\t\t\t\tTel: 049.66.78.42"
 msgstr ""
 "MAIN OFFICE<br>\n"
-"\t\t\t\tVia P. D'Abano 14<br>\n"
-"\t\t\t\t35031 - Abano Terme - (PD)<br>\n"
-"\t\t\t\tTel: 049.66.78.42"
+"Via P. D'Abano 14<br>\n"
+"35031 - Abano Terme - (PD)<br>\n"
+"Tel: 049.66.78.42"
 
 #: template/index.html:279
 msgid ""
 "SEDE SECONDARIA<br>\n"
-"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\tpiazzale Stazione<br>\n"
 "\t\t\t\t35036 - Montegrotto Terme - (PD)"
 msgstr ""
 "SECONDARY OFFICE<br>\n"
-"\t\t\t\tviale Stazione<br>\n"
-"\t\t\t\t35036 - Montegrotto Terme - (PD)"
+"viale Stazione<br>\n"
+"35036 - Montegrotto Terme - (PD)"
+
+#~ msgid "VEDI"
+#~ msgstr "VIEW"
 
 #~ msgid ""
-#~ "Da e per gli aeroporti o stazioni.<br>\n"
-#~ "\t\t\t\t\t\tTrevizio e Venezia a portata di mano\n"
-#~ "\t\t\t\t\t\tanche con servizi collettivi"
+#~ "SEDE SECONDARIA<br>\n"
+#~ "\t\t\t\tviale Stazione<br>\n"
+#~ "\t\t\t\t35036 - Montegrotto Terme - (PD)"
 #~ msgstr ""
-#~ "From and to airports or stations\n"
-#~ "Trevizio and Venice at your fingertips\n"
-#~ "even with collective services"
-
-#~ msgid "Contattaci!"
-#~ msgstr "Contact us!"
+#~ "SECONDARY OFFICE<br>\n"
+#~ "viale Stazione<br>\n"
+#~ "35036 - Montegrotto Terme - (PD)"
 

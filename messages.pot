@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-03 12:32+0100\n"
+"POT-Creation-Date: 2017-12-11 23:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,10 +144,6 @@ msgid ""
 "\t\t\t\t\t\tanche con servizi collettivi"
 msgstr ""
 
-#: template/index.html:223
-msgid "VEDI"
-msgstr ""
-
 #: template/index.html:237
 msgid "Contattaci"
 msgstr ""
@@ -167,7 +163,7 @@ msgstr ""
 #: template/index.html:279
 msgid ""
 "SEDE SECONDARIA<br>\n"
-"\t\t\t\tviale Stazione<br>\n"
+"\t\t\t\tpiazzale Stazione<br>\n"
 "\t\t\t\t35036 - Montegrotto Terme - (PD)"
 msgstr ""
 
