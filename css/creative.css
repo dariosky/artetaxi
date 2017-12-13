@@ -276,6 +276,9 @@ header.masthead {
 .big {
   font-size: 40pt; }
 
+.dropdown {
+  cursor: pointer; }
+
 .text-primary {
   color: #333 !important; }
 
