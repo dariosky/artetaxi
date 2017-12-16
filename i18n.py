@@ -39,7 +39,7 @@ def main():
     Babel(app, default_locale='it')
     with app.test_request_context():
         translate('index.html', 'template/', '.', locale='it')
-        for locale in ('en', 'fr', 'pt', 'ru'):
+        for locale in ('en', 'fr', 'pt', 'ru', 'de'):
             translate('index.html', 'template/', locale, locale=locale)
 
 
