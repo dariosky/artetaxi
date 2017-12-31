@@ -34,7 +34,7 @@ def translate(filename, source, target, locale):
 
 
 def main():
-    app = flask.Flask(__name__, template_folder='')
+    app = flask.Flask(__name__, template_folder='template')
     # app.config.update({'BABEL_TRANSLATION_DIRECTORIES': 'translations'})
     Babel(app, default_locale='it')
     with app.test_request_context():
