@@ -279,6 +279,9 @@ header.masthead {
 .dropdown {
   cursor: pointer; }
 
+.contacts a {
+  color: inherit; }
+
 .text-primary {
   color: #333 !important; }
 
