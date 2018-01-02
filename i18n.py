@@ -6,7 +6,7 @@ import re
 from flask import request
 from flask_babel import Babel
 
-SITE = 'http://www.artetaxi.com'
+SITE = 'https://www.artetaxi.com'
 
 
 def clean_path(path):
