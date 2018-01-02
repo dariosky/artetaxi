@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Page not found &raquo; {{ super() }}{% endblock title %}
+
+{% block head %}
+	{{ super() }}
+	<link rel="stylesheet" href="/css/static.min.css">
+{% endblock head %}
+
+{% block body %}
+	<div class="center-message">
+		<h1>Page not found</h1>
+
+		<p>The page you are looking for is not there, go back <a href="/">to the homepage</a></p>
+	</div>
+{% endblock body %}

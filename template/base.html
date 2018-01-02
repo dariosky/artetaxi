@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ _('it') }}">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description"
 		  content="Servizio Taxi, autonoleggio con conducente, servizio N.C.C., auto di lusso, vip service, minivan, minibus, transfer da e per aeroporti, servizi per cerimonie ad Abano Terme e Montegrotto Terme">
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WFBQDHG');</script>
+	{% include "_analytics_top.html" %}
 	<meta name="author" content="Dario Varotto">
 
-	<title>Page not found &raquo; ARTE Taxi: Car rental RadioTaxi Terme Euganee</title>
+	<title>{% block title %}{{ _('ARTE Taxi') }}: {{ _('Autonoleggio RadioTaxi Terme Euganee') }}{% endblock title %}</title>
 
 	<!--- Favicon generator --->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -23,21 +19,13 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
-	
-	
-	<link rel="stylesheet" href="/css/static.min.css">
-
+	{% block head %}{% endblock head %}
 </head>
 
 <body id="page-top">
-
-	<div class="center-message">
-		<h1>Page not found</h1>
-
-		<p>The page you are looking for is not there, go back <a href="/">to the homepage</a></p>
-	</div>
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFBQDHG"
-				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{% block body %}
+{% endblock body %}
+{% include "_analytics_bottom.html" %}
 </body>
 </html>
+

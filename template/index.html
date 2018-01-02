@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ _('it') }}">
+{% extends "base.html" %}
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description"
-		  content="Servizio Taxi, autonoleggio con conducente, servizio N.C.C., auto di lusso, vip service, minivan, minibus, transfer da e per aeroporti, servizi per cerimonie ad Abano Terme e Montegrotto Terme">
-	{% include "_analytics_top.html" %}
-	<meta name="author" content="Dario Varotto">
-
-	<title>{{ _('ARTE Taxi') }}: {{ _('Autonoleggio RadioTaxi Terme Euganee') }}</title>
-	<!--- Favicon generator --->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#ffffff">
-
+{% block head %}
 	<!-- Bootstrap core CSS -->
 	<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,280 +16,277 @@
 
 	<!-- Custom styles for this template -->
 	<link href="/css/creative.min.css" rel="stylesheet">
+{% endblock head %}
 
-</head>
-
-<body id="page-top">
-<!-- call us block -->
-<div class="callus">
-	<a href="tel:049-66-78-42">
-		<i class="icon fa fa-phone-square"></i>
-		<span class="number">049.66.78.42</span>
-	</a>
-</div>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-	<div class="container">
-		<a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<span class="name">{{ _('A.R.T.E.') }}</span>
-			<span class="other">- {{ _('Autonoleggio Radio Taxi') }}</span>
+{% block body %}
+	<!-- call us block -->
+	<div class="callus">
+		<a href="tel:049-66-78-42">
+			<i class="icon fa fa-phone-square"></i>
+			<span class="number">049.66.78.42</span>
 		</a>
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-				data-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger"
-					   href="#about">{{ _('Chi siamo') }}</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger"
-					   href="#services">{{ _('Servizi') }}</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger"
-					   href="#portfolio">{{ _('Auto') }}</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger"
-					   href="#contact">{{ _('Contatti') }}</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" id="langDD"
-					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						{% for language, text, img, url in languages if language == locale %}
-							<img class='flag' src="{{ img }}" alt="">
-						{% endfor %}
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDD">
-						{% for language, text, img, url in languages %}
-							<a class="dropdown-item" href="{{ url }}">
-								<img class='flag' src="{{ img }}" alt="">
-								{{ text }}
-							</a>
-						{% endfor %}
-					</div>
-				</li>
-			</ul>
-		</div>
 	</div>
-</nav>
-
-<header class="masthead text-center text-white d-flex">
-	<div class="container my-auto">
-		<div class="row">
-			<div class="col-lg-10 mx-auto">
-				<h1 class="text-uppercase">
-					<strong>{{ _('ARTE Taxi - Terme Euganee') }}</strong>
-				</h1>
-				<hr>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<span class="name">{{ _('A.R.T.E.') }}</span>
+				<span class="other">- {{ _('Autonoleggio Radio Taxi') }}</span>
+			</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+					data-target="#navbarResponsive" aria-controls="navbarResponsive"
+					aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger"
+						   href="#about">{{ _('Chi siamo') }}</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger"
+						   href="#services">{{ _('Servizi') }}</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger"
+						   href="#portfolio">{{ _('Auto') }}</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger"
+						   href="#contact">{{ _('Contatti') }}</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="langDD"
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							{% for language, text, img, url in languages if language == locale %}
+								<img class='flag' src="{{ img }}" alt="">
+							{% endfor %}
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDD">
+							{% for language, text, img, url in languages %}
+								<a class="dropdown-item" href="{{ url }}">
+									<img class='flag' src="{{ img }}" alt="">
+									{{ text }}
+								</a>
+							{% endfor %}
+						</div>
+					</li>
+				</ul>
 			</div>
-			<div class="col-lg-8 mx-auto">
-				<p class="mb-5">
-					{{ _('Il Consorzio Autonoleggio Radiotaxi Terme Euganee
+		</div>
+	</nav>
+
+	<header class="masthead text-center text-white d-flex">
+		<div class="container my-auto">
+			<div class="row">
+				<div class="col-lg-10 mx-auto">
+					<h1 class="text-uppercase">
+						<strong>{{ _('ARTE Taxi - Terme Euganee') }}</strong>
+					</h1>
+					<hr>
+				</div>
+				<div class="col-lg-8 mx-auto">
+					<p class="mb-5">
+						{{ _('Il Consorzio Autonoleggio Radiotaxi Terme Euganee
 					si avvale di operatori del settore TAXI e NCC (noleggio
 					con conducente) di autovetture di prestigio,
 					ponendosi da sempre come obiettivo quello di offrire ai propri
 					clienti garanzia di massima qualità, puntualità prezzo trasparente
 					con tariffe pattuite preventivamente') }}
-				</p>
-				<a class="js-scroll-trigger" href="#about">
-					<img class="taxi-img" src="/img/taxi.png" alt=""/>
-				</a>
+					</p>
+					<a class="js-scroll-trigger" href="#about">
+						<img class="taxi-img" src="/img/taxi.png" alt=""/>
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</header>
+	</header>
 
-<section class="bg-primary" id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
-				<h2 class="section-heading text">
-					{{ _('Abbiamo ciò di cui hai bisogno') }}
-				</h2>
-				<hr class="light my-4">
-				<p class="text mb-4">
-					{{ _('I punti di forza del nostro gruppo sono una vasta gamma di automezzi,
+	<section class="bg-primary" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<h2 class="section-heading text">
+						{{ _('Abbiamo ciò di cui hai bisogno') }}
+					</h2>
+					<hr class="light my-4">
+					<p class="text mb-4">
+						{{ _('I punti di forza del nostro gruppo sono una vasta gamma di automezzi,
 					le Berline per i vostri viaggi d\'affari, le nostre Station Wagon e monovolume,
 					i nostri pulmini ad otto posti ed il nostro mezzo per disabili per andare
 					ovunque voi vogliate, senza tralasciare un team di autisti che operano ormai
 					da anni nel settore con la massima conoscenza del territorio.') }}
-				</p>
-				<p class="text text-faded mb-4">
-					{{ _('Assicuriamo la nostra puntuale presenza ovunque Voi lo richiediate
+					</p>
+					<p class="text text-faded mb-4">
+						{{ _('Assicuriamo la nostra puntuale presenza ovunque Voi lo richiediate
 					24 ore su 24 per 365 giorni e su richiesta forniamo autisti con
 					conoscenza della lingua inglese, francese e tedesca.
 					Saremo lieti di offrirVi ulteriori informazioni mettendo tutta la
 					nostra esperienza a Vostra disposizione.') }}
-				</p>
-
-				<p class="text mb-4">
-					{{ _('Il tutto per soddisfare ogni vostra esigenza.') }}
-				</p>
-				<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">
-					{{ _('Vienici a trovare!') }}
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="services">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">{{ _('Al tuo servizio') }}</h2>
-				<hr class="my-4">
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 text-center">
-				<div class="service-box mt-5 mx-auto">
-					<i class="fa fa-4x fa-taxi text-primary mb-3 sr-icons"></i>
-					<h3 class="mb-3">{{ _('Servizio Taxi') }}</h3>
-					<p class="text-muted mb-0">
-						{{ _('Il miglior trasporto di passeggeri pubblico') }}
 					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center">
-				<div class="service-box mt-5 mx-auto">
-					<i class="fa fa-4x fa-briefcase text-primary mb-3 sr-icons"></i>
-					<h3 class="mb-3">{{ _('Viaggi d\'affari') }}</h3>
-					<p class="text-muted mb-0">
-						{{ _('Concentrati sul tuo business, al viaggio pensiamo noi') }}
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center">
-				<div class="service-box mt-5 mx-auto">
-					<i class="fa fa-4x fa-building-o  text-primary mb-3 sr-icons"></i>
-					<h3 class="mb-3">{{ _('Tours') }}</h3>
-					<p class="text-muted mb-0">
-						{{ _('Visite in città ed escursioni turistiche con possibilità di prenotazione
-						guide') }}
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center">
-				<div class="service-box mt-5 mx-auto">
-					<i class="fa fa-4x fa-plane text-primary mb-3 sr-icons"></i>
-					<h3 class="mb-3">{{ _('Trasferimenti') }}</h3>
-					<p class="text-muted mb-0">
-						{{ _('Da e per gli aeroporti o stazioni.<br>
-						Treviso e Venezia a portata di mano
-						anche con servizi collettivi') }}
-					</p>
-				</div>
-			</div>
 
-		</div>
-	</div>
-</section>
-
-<section class="p-0" id="portfolio">
-	<div class="container-fluid p-0">
-		<div class="row no-gutters popup-gallery">
-			{% for image in images %}
-				<div class="col-lg-4 col-sm-6 fullback"
-					 style="background-image: url({{ image }})">
-					<a class="portfolio-box" href="{{ image }}">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text">
-									<i class="icon big fa fa-eye"></i>
-								</div>
-							</div>
-						</div>
+					<p class="text mb-4">
+						{{ _('Il tutto per soddisfare ogni vostra esigenza.') }}
+					</p>
+					<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">
+						{{ _('Vienici a trovare!') }}
 					</a>
 				</div>
-			{% endfor %}
-		</div>
-	</div>
-</section>
-
-<section class="bg-dark text-white">
-	<div class="container text-center">
-		<h2 class="mb-4"><a class="btn sr-button btn-light btn-xl js-scroll-trigger"
-							href="#contact">{{ _('Contattaci') }}</a></h2>
-	</div>
-</section>
-
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
-				<h2 class="section-heading">{{ _('Contatti') }}</h2>
-				<hr class="my-4">
-				<p class="mb-5">{{ _('Consorzio Autonoleggio Radiotaxi Terme Euganee') }}</p>
 			</div>
 		</div>
-		<div class="row contacts">
-			<div class="col-lg-4 ml-auto text-center">
-				<a href="tel:+39 049-66-78-42">
-					<i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-					<p>049.66.78.42</p>
-				</a>
-			</div>
-			<div class="col-lg-4 mr-auto text-center">
-				<a href="mailto:info@artetaxi.com">
-					<i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-					<p>
-						info@artetaxi.com
-					</p>
-				</a>
-			</div>
-			<div class="col-lg-4 mr-auto text-center">
-				<a href="https://www.facebook.com/autonoleggio.radiotaxi.terme.euganee/">
-					<i class="fa fa-facebook fa-3x mb-3 sr-contact"></i>
-					<p>Facebook</p>
-				</a>
-			</div>
+	</section>
 
-		</div>
-
-		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
-				<iframe class="map"
-						src="https://www.google.com/maps/d/u/0/embed?mid=1e0KJwR9FbpY1gswvPBDdkAI4lsqSI_yj">
-
-				</iframe>
+	<section id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">{{ _('Al tuo servizio') }}</h2>
+					<hr class="my-4">
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 mx-auto text-center">
-				{{ _('SEDE PRINCIPALE<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="service-box mt-5 mx-auto">
+						<i class="fa fa-4x fa-taxi text-primary mb-3 sr-icons"></i>
+						<h3 class="mb-3">{{ _('Servizio Taxi') }}</h3>
+						<p class="text-muted mb-0">
+							{{ _('Il miglior trasporto di passeggeri pubblico') }}
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="service-box mt-5 mx-auto">
+						<i class="fa fa-4x fa-briefcase text-primary mb-3 sr-icons"></i>
+						<h3 class="mb-3">{{ _('Viaggi d\'affari') }}</h3>
+						<p class="text-muted mb-0">
+							{{ _('Concentrati sul tuo business, al viaggio pensiamo noi') }}
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="service-box mt-5 mx-auto">
+						<i class="fa fa-4x fa-building-o  text-primary mb-3 sr-icons"></i>
+						<h3 class="mb-3">{{ _('Tours') }}</h3>
+						<p class="text-muted mb-0">
+							{{ _('Visite in città ed escursioni turistiche con possibilità di prenotazione
+						guide') }}
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center">
+					<div class="service-box mt-5 mx-auto">
+						<i class="fa fa-4x fa-plane text-primary mb-3 sr-icons"></i>
+						<h3 class="mb-3">{{ _('Trasferimenti') }}</h3>
+						<p class="text-muted mb-0">
+							{{ _('Da e per gli aeroporti o stazioni.<br>
+						Treviso e Venezia a portata di mano
+						anche con servizi collettivi') }}
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="p-0" id="portfolio">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters popup-gallery">
+				{% for image in images %}
+					<div class="col-lg-4 col-sm-6 fullback"
+						 style="background-image: url({{ image }})">
+						<a class="portfolio-box" href="{{ image }}">
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text">
+										<i class="icon big fa fa-eye"></i>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-dark text-white">
+		<div class="container text-center">
+			<h2 class="mb-4"><a class="btn sr-button btn-light btn-xl js-scroll-trigger"
+								href="#contact">{{ _('Contattaci') }}</a></h2>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<h2 class="section-heading">{{ _('Contatti') }}</h2>
+					<hr class="my-4">
+					<p class="mb-5">{{ _('Consorzio Autonoleggio Radiotaxi Terme Euganee') }}</p>
+				</div>
+			</div>
+			<div class="row contacts">
+				<div class="col-lg-4 ml-auto text-center">
+					<a href="tel:+39 049-66-78-42">
+						<i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+						<p>049.66.78.42</p>
+					</a>
+				</div>
+				<div class="col-lg-4 mr-auto text-center">
+					<a href="mailto:info@artetaxi.com">
+						<i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+						<p>
+							info@artetaxi.com
+						</p>
+					</a>
+				</div>
+				<div class="col-lg-4 mr-auto text-center">
+					<a href="https://www.facebook.com/autonoleggio.radiotaxi.terme.euganee/">
+						<i class="fa fa-facebook fa-3x mb-3 sr-contact"></i>
+						<p>Facebook</p>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<iframe class="map"
+							src="https://www.google.com/maps/d/u/0/embed?mid=1e0KJwR9FbpY1gswvPBDdkAI4lsqSI_yj">
+
+					</iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 mx-auto text-center">
+					{{ _('SEDE PRINCIPALE<br>
 				Via P. D\'Abano 14<br>
 				35031 - Abano Terme - (PD)<br>
 				Tel: 049.66.78.42') }}
-			</div>
-			<div class="col-lg-4 mx-auto text-center">
-				{{ _('SEDE SECONDARIA<br>
+				</div>
+				<div class="col-lg-4 mx-auto text-center">
+					{{ _('SEDE SECONDARIA<br>
 				piazzale Stazione<br>
 				35036 - Montegrotto Terme - (PD)') }}
+				</div>
 			</div>
+
 		</div>
+	</section>
 
-	</div>
-</section>
+	<!-- Bootstrap core JavaScript -->
+	<script src="/vendor/jquery/jquery.min.js"></script>
+	<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap core JavaScript -->
-<script src="/vendor/jquery/jquery.min.js"></script>
-<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
+	<script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
-<script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="/js/creative.min.js"></script>
-{% include "_analytics_bottom.html" %}
-</body>
-</html>
+	<!-- Custom scripts for this template -->
+	<script src="/js/creative.min.js"></script>
+{% endblock body %}

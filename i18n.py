@@ -42,6 +42,8 @@ def main():
         for locale in ('en', 'fr', 'pt', 'ru', 'de'):
             translate('index.html', 'template/', locale, locale=locale)
 
+        translate('404.html', 'template/', '.', locale='en')
+        translate('500.html', 'template/', '.', locale='en')
 
 if __name__ == '__main__':
     main()

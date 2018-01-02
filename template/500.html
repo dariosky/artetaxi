@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Server error &raquo; {{ super() }}{% endblock title %}
+
+{% block head %}
+	{{ super() }}
+	<link rel="stylesheet" href="/css/static.min.css">
+{% endblock head %}
+
+{% block body %}
+	<div class="center-message">
+		<h1>Error</h1>
+
+		<p>OOPS! This shouldn't happen... Try to go <a href="/">to the homepage</a></p>
+	</div>
+{% endblock body %}
