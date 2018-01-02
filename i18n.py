@@ -2,14 +2,30 @@ import json
 import os
 
 import flask
+import re
 from flask import request
 from flask_babel import Babel
+
+SITE = 'http://www.artetaxi.com'
+
+
+def clean_path(path):
+    """ Given a file path return the resource url
+
+        We use it to get the canonical name
+    """
+    result = re.sub(r'^\.', r'', path)  # remove initial dots
+    result = re.sub(r'/index.html$', '/', result)  # final index
+    if not result.startswith("/"):  # start with /
+        result = "/" + result
+    return result
 
 
 def translate(filename, source, target, locale):
     full_source = os.path.join(source, filename)
     full_target = os.path.join(target, filename)
     print(f"Processing {full_source} => [{locale}] => {full_target}")
+
     if not os.path.isdir(target):
         os.makedirs(target)
 
@@ -27,7 +43,14 @@ def translate(filename, source, target, locale):
                     context = json.load(context_file)
             else:
                 context = {}
-            context['locale'] = locale
+
+            request_path = clean_path(full_target)
+            context.update(dict(
+                locale=locale,
+                request_path=request_path,
+                canonical_url=f'{SITE}{request_path}'
+            ))
+
             output = flask.render_template_string(content, **context)
             # print(output.split("\n")[:5])
             out.write(output)
@@ -44,6 +67,7 @@ def main():
 
         translate('404.html', 'template/', '.', locale='en')
         translate('500.html', 'template/', '.', locale='en')
+
 
 if __name__ == '__main__':
     main()
