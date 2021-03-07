@@ -2,18 +2,36 @@
 
 Based on: [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 
-
 ## Usage
 
 ### Basic Usage
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Install all the yarn and Python requirements.
+
+```shell
+yarn install
+pip install -r requirements
+```
+
+Run `gulp dev` to view the site in your browser. Run `gulp` to just run the build.
+
+# Translations
+
+* Change your template files (in the `template folder`), and use the _() function to mark the text
+* run `babel.sh` to generete the messages mo files
+* call `po2excel` to update the `translations.xlsx`
+* Fill the `translations.xlsx`
+* when done run `i18n.py` to create the HTMLs out of the templates
 
 #### Gulp Tasks
 
 - `gulp` the default task that builds everything
 - `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
+
+#### Deploy
+
+Push the updates to GITHUB and run
+
+```shell
+fab deploy
+```

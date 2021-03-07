@@ -8,8 +8,8 @@ from fabric.state import env
 if os.path.exists(os.path.expanduser("~/.ssh/config")):
     env.use_ssh_config = True
 
-WEBAPP_FOLDER = '~/webapps/artetaxi'
-env.hosts = 'tam'
+WEBAPP_FOLDER = '~/apps/artetaxi'
+env.hosts = 'opal'
 
 
 @task
